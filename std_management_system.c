@@ -67,8 +67,10 @@ void perform_operation(Student students[], int *no_of_students, int *command_num
 {
 
     int sign;
+    printf("\n");
     printf("Press 1 to perform any operation to students database.\n");
     printf("Press 0 to exit the program.\n");
+
     scanf("%d", &sign);
 
     if (sign == 1)
